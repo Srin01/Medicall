@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Medi call theme</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <meta charset="utf-8">
+  <style>
+      * {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+    
+    
+    .bluetron {
+    background-color: rgb(0,128,255) ; /* Azure blue */
+    color: #ffffff;
+    padding: 100px 25px;
+            }
+            
+    .container-fluid {
+        padding: 60px 50px;
+            }
+    .bg-grey {
+    background-color: #f6f6f6;
+            }
+            * {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+.text {
+  color: blue;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+    .logo-small {
+        color:  rgb(0,128,255);
+        font-size: 50px;
+      }
+      
+      .logo {
+        color: rgb(0,128,255);
+        font-size: 200px;
+      }
+    @media screen and (max-width: 768px) {
+    .col-sm-4 {
+      text-align: center;
+      margin: 25px 0;
+    }
+      }
+.carousel-control.right, .carousel-control.left {
+  background-image: none;
+  color: rgb(0,128,255);
+}
+
+.carousel-indicators li {
+  border-color: rgb(0,128,255);
+}
+
+.carousel-indicators li.active {
+  background-color:rgb(0,128,255);
+}
+
+.item h4 {
+  font-size: 19px;
+  line-height: 1.375em;
+  font-weight: 400;
+  font-style: italic;
+  margin: 70px 0;
+}
+
+.item span {
+  font-style: normal;
+}
+/*navigation bar*/
+.navbar {
+  margin-bottom: 0;
+  background-color: rgb(0,128,255);
+  z-index: 9999;
+  border: 0;
+  font-size: 12px !important;
+  line-height: 1.42857143 !important;
+  letter-spacing: 4px;
+  border-radius: 0;
+}
+
+.navbar li a, .navbar .navbar-brand {
+  color: #fff !important;
+}
+
+.navbar-nav li a:hover, .navbar-nav li.active a {
+  color: rgb(18, 114, 209) !important;
+  background-color: #fff !important;
+   
+}
+
+.navbar-default .navbar-toggle {
+  border-color: transparent;
+  color: #fff !important;
+}
+
+    </style>
+    
+    
+</head>
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+
+    
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>                        
+            </button>
+            <a class="navbar-brand" href="#myPage">MEDI.CALL</a>
+          </div>
+          <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="#mission">MISSION</a></li>
+              <li><a href="#services">SERVICES</a></li>
+              <li><a href="#contact">CONTACT</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <div class="bluetron text-center">
+        <h1>Medicall</h1>
+        <p>Future Tele-Healthcare Facility</p>
+        <form class="form-inline">
+            <div class="input-group">
+              <input type="email" class="form-control" size="50" placeholder="Email Address" required>
+              <div class="input-group-btn">
+                <button type="button" class="btn btn-danger" style="background-color: rgb(0,0,128) ;">Subscribe</button>
+              </div>
+            </div>
+          </form>
+        </div>
+        <div class="slideshow-container">
+
+            <div class="mySlides fade">
+              <div class="numbertext">1 / 3</div>
+              <img src="download.jfif" style="width:100%">
+              <div class="text">Medical service 1</div>
+            </div>
+            
+            <div class="mySlides fade">
+              <div class="numbertext">2 / 3</div>
+              <img src="medicall1.jfif" style="width:100%">
+              <div class="text">Medical servise 2</div>
+            </div>
+            
+            <div class="mySlides fade">
+              <div class="numbertext">3 / 3</div>
+              <img src="medicall2.jfif" style="width:100%">
+              <div class="text">Medical service 3 </div>
+            </div>
+            
+            </div>
+            <br>
+            
+            <div style="text-align:center">
+              <span class="dot"></span> 
+              <span class="dot"></span> 
+              <span class="dot"></span> 
+            </div>
+        <div id = "mission" class="container-fluid bg-grey">
+            <div class="row">
+                <div class="col-sm-4">
+                  <span class="glyphicon glyphicon-globe logo"></span>
+                </div>
+                <div class="col-sm-8">
+                <h2>Our Values</h2>
+                <p><strong>MISSION:</strong> MediCall aims to be the leading telehealthcare care provider in Hong Kong by relieving stress on the patients as well as health professionals, with increased comfort and decreased waiting/ travel time. We also aspire to become the platform of choice for doctors looking for a new work environment (eg. pregnant doctors, new doctors, doctors seeking flexibility, doctors in remote areas, etc.). </p>
+                <p><strong>VISION:</strong>As a whole we want to popularize telehealthcare through modern and targeted marketing for a greater impact, to benefit the Hong Kong population and increase our reach. We will start the platform with general practitioners, and soon after, psychologists and psychiatrists. We also intend to increase our range of services offered with:
+                </div>
+            </div>
+        </div>
+          
+    <div id = "services" class="container-fluid text-center">
+        <h2>SERVICES</h2>
+        <h4>What we offer</h4>
+        <br>
+        <div class="row">
+          <div class="col-sm-4">
+            <span class="glyphicon glyphicon-off logo-small"></span>
+            <h4>BRAIN PROBLEM</h4>
+            <p>Brain related .</p>
+          </div>
+          <div class="col-sm-4">
+            <span class="glyphicon glyphicon-heart logo-small" ></span>
+
+            <h4>HEART PROBLEM</h4>
+            <p>Heart related </p>
+          </div>
+        <div class="col-sm-4">
+            <span class="glyphicon glyphicon-lock logo-small"></span>
+            <h4>KNEE PROBLEM</h4>
+            <p>Knee related</p>
+          </div>
+          
+          
+        <div class="row">
+          <div class="col-sm-4">
+            <span class="glyphicon glyphicon-leaf logo-small"></span>
+            <h4>HUMAN BONES PROBLEM</h4>
+            <p>Bones related</p>
+          </div>
+          </div>
+
+        </div>
+    </div>
+    <h2>What our customers say</h2>
+<div id="myCarousel" class="carousel slide text-center" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+    <h4>“Total hip replacement: I can't believe how well my hip feels and has felt from almost immediately after surgery. I'm ready to do a well-deserved testimonial for Dr. Hernandez, SCOI, the surgical center at UCLA Health, and everyone else involved. The care, service, and results are the highest level possible. It's nice to walk, move and live without pain, thank you!”
+       <br><span style="font-style:normal;">Steven C, Vice President, Comment Box</span></h4>
+    </div>
+    <div class="item">
+      <h4>“Dr. Jain did surgery on my lower lumbar. I am thrilled with his care, and I feel that he is an excellent Dr. and surgeon. I had severe unexpected pain after surgery; he ordered tests to ensure that the surgery went well and as a precaution, called in his colleague, Dr. Schopler, to review criteria and examine me. Everything was good with the operation, and Dr. Jain ordered steroids to calm nerves down, and all went well from there.”<br><span style="font-style:normal;">John Doe, Salesman, Rep Inc</span></h4>
+    </div>
+    <div class="item">
+      <h4>"Dr. Jain was a kind, competent, and excellent diagnostician. He sent me to Dr. Blose. She is superior to check my neck, which none of the other orthopedic Doctors has done. I have a pinched nerve in my neck. Dr. Jain gave me hope when I had given up on getting relief from my back pain.”<br><span style="font-style:normal;">Chandler Bing, Actor, FriendsAlot</span></h4>
+    </div>
+  </div>
+
+  <!-- Left and right controls -->
+  <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+<div id = "contact" class="container-fluid bg-grey">
+    <h2 class="text-center">CONTACT</h2>
+    <div class="row">
+      <div class="col-sm-5">
+        <p>Contact us and we'll get back to you within 24 hours.</p>
+        <p><span class="glyphicon glyphicon-map-marker"></span> Chicago, US</p>
+        <p><span class="glyphicon glyphicon-phone"></span> +00 1515151515</p>
+        <p><span class="glyphicon glyphicon-envelope"></span> myemail@something.com</p>
+      </div>
+        <div class="row">
+            <h4 class="u-font--30 u-margin--0 u-font--bold ">Download the Practo app</h4>
+            <span class="LazyLoad is-visible"><img src="data:image/png;base64,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" alt="Get it on Google Play" class="store"></span></div>
+    </div>
+</div>
+<script>
+    var slideIndex = 0;
+    showSlides();
+    
+    function showSlides() {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      var dots = document.getElementsByClassName("dot");
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";  
+      }
+      slideIndex++;
+      if (slideIndex > slides.length) {slideIndex = 1}    
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";  
+      dots[slideIndex-1].className += " active";
+      setTimeout(showSlides, 2000); // Change image every 2 seconds
+    }
+    </script>
+</body>
+</html>
+      
+      
